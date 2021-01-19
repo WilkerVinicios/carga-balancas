@@ -19,6 +19,7 @@ public class ExportarFilizola {
         });
         FileWriter arquivo;
         try {
+            //editar o caminho para gerar o arquivo de acordo com sua configuração
             arquivo = new FileWriter(new File("/home/wilker/Balancas/Filizola/CADTXT.TXT"));
             arquivo.write(conteudo.toString());
             arquivo.close();
@@ -40,6 +41,7 @@ public class ExportarFilizola {
         });
         FileWriter arquivo;
         try {
+            //editar o caminho para gerar o arquivo de acordo com sua configuração
             arquivo = new FileWriter(new File("/home/wilker/Balancas/Filizola/SETORTXT.TXT"));
             arquivo.write(conteudo.toString());
             arquivo.close();

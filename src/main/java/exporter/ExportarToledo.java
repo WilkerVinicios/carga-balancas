@@ -22,6 +22,7 @@ public class ExportarToledo {
         });
         FileWriter arquivo;
         try {
+            //editar o caminho para gerar o arquivo de acordo com sua configuração
             arquivo = new FileWriter("/home/wilker/Balancas/Toledo/ITENSMGV.TXT");
             arquivo.write(conteudo.toString());
             arquivo.close();
@@ -43,6 +44,7 @@ public class ExportarToledo {
         });
         FileWriter arquivo;
         try {
+            //editar o caminho para gerar o arquivo de acordo com sua configuração
             arquivo = new FileWriter(new File("/home/wilker/Balancas/Toledo/TXITENS.TXT"));
             arquivo.write(conteudo.toString());
             arquivo.close();
@@ -64,6 +66,7 @@ public class ExportarToledo {
 //        });
 //        FileWriter arquivo;
 //        try {
+            //editar o caminho para gerar o arquivo de acordo com sua configuração
 //            arquivo = new FileWriter(new File("/home/wilker/Balancas/Toledo/TXINFO.TXT"));
 //            arquivo.write(conteudo.toString());
 //            arquivo.close();
@@ -85,6 +88,7 @@ public class ExportarToledo {
         });
         FileWriter arquivo;
         try {
+            //editar o caminho para gerar o arquivo de acordo com sua configuração
             arquivo = new FileWriter(new File("/home/wilker/Balancas/Toledo/INFNUTRI.TXT"));
             arquivo.write(conteudo.toString());
             arquivo.close();

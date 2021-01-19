@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ba340-e3c1-4c69-8257-e23c2fb7b8a6" name="Default Changelist" comment="Criando Models;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exporter/ExportarToledo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generator/Toledo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/TabelaNutricionalRepository.java" afterDir="false" />
+    <list default="true" id="607ba340-e3c1-4c69-8257-e23c2fb7b8a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/TabelaNutricional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/TabelaNutricional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exporter/ExportarFilizola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exporter/ExportarFilizola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exporter/ExportarToledo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exporter/ExportarToledo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CargaBalancas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -57,6 +61,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611059785430</updated>
       <workItem from="1611059787451" duration="297000" />
-      <workItem from="1611060151992" duration="4178000" />
+      <workItem from="1611060151992" duration="5133000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de estrutura de projeto;">
       <created>1611060289993</created>
@@ -90,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611063014133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionando modelo de cargas para balança Toledo;">
+      <created>1611064481286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611064481286</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +116,7 @@
     <MESSAGE value="Commit de estrutura de projeto;" />
     <MESSAGE value="Criando Models;" />
     <MESSAGE value="Adicionado gerador de arquivos para carga de balanças Filizola;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado gerador de arquivos para carga de balanças Filizola;" />
+    <MESSAGE value="Adicionando modelo de cargas para balança Toledo;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando modelo de cargas para balança Toledo;" />
   </component>
 </project>
