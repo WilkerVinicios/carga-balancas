@@ -1,5 +1,7 @@
 package model;
 
+import generator.Filizola;
+
 public class Produto {
     private String departamento;
     private String unidadeMedida;
@@ -57,6 +59,18 @@ public class Produto {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String montarCadBalancaFilizola() {
+        Filizola item = new Filizola();
+        item.setProduto(this);
+        return item.montarCadTxt();
+    }
+
+    public String montarSetorBalancaFilizola() {
+        Filizola item = new Filizola();
+        item.setProduto(this);
+        return item.montarSetorTxt();
     }
 
 }
