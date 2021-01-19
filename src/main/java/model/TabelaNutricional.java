@@ -1,5 +1,7 @@
 package model;
 
+import generator.Toledo;
+
 import java.math.BigDecimal;
 
 public class TabelaNutricional {
@@ -151,4 +153,9 @@ public class TabelaNutricional {
         this.valorSodio = valorSodio;
     }
 
+    public String montarInfNutriBalancaToledo() {
+        Toledo item = new Toledo();
+        item.setNutricional(this);
+        return item.montarInfNutri();
+    }
 }

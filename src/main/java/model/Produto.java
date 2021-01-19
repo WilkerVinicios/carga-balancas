@@ -1,6 +1,7 @@
 package model;
 
 import generator.Filizola;
+import generator.Toledo;
 
 public class Produto {
     private String departamento;
@@ -60,6 +61,24 @@ public class Produto {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+
+    public String montarItensMGVBalancaToledo() {
+        Toledo item = new Toledo();
+        item.setProduto(this);
+        return item.montarItensMGV();
+    }
+
+    public String montarTxItemBalancaToledo() {
+        Toledo item = new Toledo();
+        item.setProduto(this);
+        return item.montarTxItem();
+    }
+
+//    public String montarTxInfoBalancaToledo() {
+//        Toledo item = new Toledo();
+//        item.setProduto(this);
+//        return item.montarTxInfo();
+//    }
 
     public String montarCadBalancaFilizola() {
         Filizola item = new Filizola();
